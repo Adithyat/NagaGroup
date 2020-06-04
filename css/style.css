@@ -82,7 +82,7 @@ banner
 
 .navbar-brand
 {
-	font-family: 'Chewy', cursive;
+	font-family: 'Chewy',;
 	font-size: 32px;
 }
 
@@ -248,6 +248,11 @@ td {
     border-top: 1px solid rgba(216, 216, 216, 0.5);
     padding: 6px 10px 6px 0;
 }
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
 
 /***************************************
 about
@@ -261,9 +266,8 @@ about
 }
 .more-features-box-text-icon {
     float: left;
-    width: 40px;
-    height: 40px;
-    padding-top: 6px;
+    width: 26px;
+    height: 26px;
     background: #EA6045;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -466,9 +470,7 @@ footer
     text-align: center;
     margin-right: 5px;
 }
-.social-icon u {
-    text-decoration: none;
-}
+
 .bglight-blue {
     background-color: #3498DB;
 }
