@@ -18,7 +18,7 @@ $(function() {
               firstName = name.split(' ').slice(0, -1).join(' ');
           }
           $.ajax({
-              url: "contactform.php",
+              url: "././mail/contactfrm.php",
               type: "POST",
               data: {
                   name: name,
@@ -43,7 +43,7 @@ $(function() {
               },
               error: function() {
                   // Fail message
-                  console.log('fail')
+                  console.log(url)
                   $('#success').html("<div class='alert alert-danger'>");
                   $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                       .append("</button>");
